@@ -882,3 +882,21 @@
 
  #app-mount .wordmark_a934d8 {top: 3.3px;}
  #app-mount .winButton_a934d8 {top: 2px;}
+
+*:not([class*="hljs"]):not(code){
+
+font-family: var(--Font-Used)!important;
+
+font-style: var(--Font-Style)!important;
+
+font-weight: var(--Font-Weight)!important;
+
+font-variant: var(--Font-Variant)!important;
+
+}
+
+.markup:not(code) {
+
+font-size: var(--Font-Size)!important;
+
+}
